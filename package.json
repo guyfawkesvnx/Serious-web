@@ -1,0 +1,14 @@
+{
+  "name": "web-serious",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sasstocss": "node-sass Base/styleSASS.sass Base/styleCSS.css -w"
+  },
+  "author": "dhq",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  }
+}

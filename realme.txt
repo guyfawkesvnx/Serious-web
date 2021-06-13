@@ -1,0 +1,7 @@
+BASE/ chứa các setting ban đầu
+Components/ chứa các phần nhỏ dể tái sử dụng như (bottom,...)
+Layout/ Chứa các footer, navbar
+Pages/ Chứa các pages project web của bạn có nhiều pages khác
+abstracts/ chứa các animation, mixin, function khi sử dụng sass
+themes/ các mẫu có sẳn
+Vendors/ code css bên ngoài như bootstraps
