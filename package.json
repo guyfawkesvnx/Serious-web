@@ -1,13 +1,22 @@
 {
-  "name": "web-serious",
+  "name": "serious",
   "version": "1.0.0",
-  "description": "",
+  "description": "1",
   "main": "index.js",
   "scripts": {
-    "sasstocss": "node-sass sass/main.scss css/style.css -w"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -watch sass/main.scss -o css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guyfawkesvnx/Serious-web.git"
   },
   "author": "dhq",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guyfawkesvnx/Serious-web/issues"
+  },
+  "homepage": "https://github.com/guyfawkesvnx/Serious-web#readme",
   "devDependencies": {
     "node-sass": "^6.0.0"
   }

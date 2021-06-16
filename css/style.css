@@ -1,3 +1,4 @@
+@import url(./Layouts/_navbar.scss);
 :root {
   --header-height: 3rem;
   /* ==============COLOR=========== */
@@ -33,7 +34,13 @@
   --background-color-blue-light: rgb(108, 218, 255);
   --background-color-blue-dark: rgb(0, 45, 128);
   --background-color-dark: rgb(22, 20, 20);
-  --background-color-black: black; }
+  --background-color-black: black;
+  --float-clear-fix: {
+        content: "";
+        clear: both;
+        display: table;
+      }
+; }
 
 *,
 *::after,
@@ -54,11 +61,49 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size); }
 
-.header__logo-box {
-  height: 2rem;
-  width: 2rem; }
 
-.header__navbar-ul {
-  list-style-type: none; }
-  .header__navbar-ul .header__navbar-li .header__navbar-link {
-    text-decoration: none; }
+  /* HEADER __ NAVBAR */
+
+  /* HEADER LOGO */
+
+.header__logo-box{
+  position: relative;
+  padding-top: auto;
+  padding-left: auto;
+  display: inline;
+  left: 5rem;
+}
+.header__logo-box img{
+  height: 5rem;
+  width: 15rem;
+}
+
+  /* HEADER LOGO */
+
+.clearfix
+.clearfix::after
+.clearfix::before{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* HEADER MENU */
+.header__navbar{
+  float: right;
+}
+.header__navbar-ul{
+  list-style-type: none;
+}
+.header__navbar-ul li{
+  position: relative;
+  display: inline-table;
+  right: 200px;
+  border-left: 2px solid black;
+}
+.header__navbar-li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2rem;
+
+}

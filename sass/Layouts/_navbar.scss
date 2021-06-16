@@ -1,18 +1,18 @@
 .header__logo-box{
-  height: 2rem;
+  position: relative;
+  height: 20rem;
   width: 2rem;
+  left: 10rem;
 }
 .header__navbar{
-
-
+  float: right;
   .header__navbar-ul{
     list-style-type: none;
     .header__navbar-li{
         .header__navbar-link{
             text-decoration: none;
             text-transform: uppercase;
-        }
+      }
     }
+  }
 }
-}
-

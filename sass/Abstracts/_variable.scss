@@ -44,4 +44,10 @@
     --background-color-dark: rgb(22, 20, 20);
     --background-color-black: black;
     
+    // CLEAR FIX
+    --float-clear-fix: {
+        content: "";
+        clear: both;
+        display: table;
+      }
 }
