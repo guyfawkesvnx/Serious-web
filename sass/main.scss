@@ -1,4 +1,8 @@
 @import './Abstracts/variable';
 @import './base/base';
 @import './Base/typography';
-@import './Layouts/navbar'
+@import './Layouts/navbar';
+@import './Abstracts/clearfix.scss';
+@import './Layouts/heading.scss';
+@import './Layouts/header';
+@import './Base/animations';
