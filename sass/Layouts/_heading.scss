@@ -1,29 +1,31 @@
-
 .heading-primary{
+    text-align: center;
     position: relative;
     float: right;
-    right: 20rem;
-    top: 15rem;
+    right: 5%;
+    top: -60%;
     &--main{
       .heading-text-main{
+        position: relative;
         text-transform: uppercase;
-        font-size: 3rem;
+        font-size: 5rem;
         display: inline-block;
         background-image: linear-gradient(to left,
-        rgba(10, 21, 173, 0.8), rgba(1,11,1,0.8));
+        rgba(10, 21, 173, 0.8), rgba(9, 202, 9, 0.8));
         color: transparent;
         -webkit-background-clip: text;
-        animation-name: moveInLeft;
+        animation: moveInLeft 1s ease-out;
       }
     }
     &--sub{
       .heading-text-sub{
+        color: white;
         text-transform: uppercase;
-        font-size: 1.5rem;
+        font-size: 2rem;
         display: inline-block;
         background-image: linear-gradient(to right,
-        rgba(10, 21, 173, 0.8), rgba(1,11,1,0.8));
-        animation-name: moveInRight ;
+        rgba(10, 21, 173, 0.8), rgba(9, 202, 9, 0.8));
+        animation: moveInRight 1s ease-out;
         }
       }
   }
@@ -32,8 +34,8 @@
     float: left;
     &-text-h{
       font-size: 35rem;
-      margin-top: -15rem;
-      margin-left: 17rem;
+      margin-top: -20%;
+      margin-left: 31%;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       text-transform: uppercase;
       background-image: linear-gradient(to right,
@@ -41,12 +43,12 @@
       url(../Themes/background1.jpg);
       color: transparent;
       -webkit-background-clip: text;
-
-      z-index: 10;
+      animation: moveHLeft 1s ease-out;
+      z-index: 9;
     }
     &-text-q{
       font-size: 40rem;
-      margin-top: -50rem;
+      margin-top: -90%;
       margin-left: 30rem;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       text-transform: uppercase;
@@ -55,6 +57,7 @@
       url(../Themes/background1.jpg);
       color: transparent;
       -webkit-background-clip: text;
-      z-index: 9;
+      animation: moveQRight 1s ease-out;
+      z-index: 10;
     }
   }

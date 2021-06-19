@@ -1,0 +1,32 @@
+@import '../Abstracts/mixin';
+.row{
+    [class^="col-"]{
+        background-color: aqua;
+        float: left;
+        &:not(:last-child){
+            margin-right: $grutter-horizontal;
+            }
+    }
+    @include clearfix;
+    &:not(:last-child){
+    margin-bottom: $gutter-vertical;
+    }
+    max-width: $grid-max-width;
+    margin: 0 auto;
+    background-color: black;
+
+    .col-1-of-2{
+    width: calc((100% - #{$grutter-horizontal}) / 2);
+
+}
+.col-1-of-3{
+    width: calc((100% - 2*#{$grutter-horizontal}) / 3);
+}
+.col-1-of-4{
+    width: calc((100% - 3*#{$grutter-horizontal}) / 4);
+}
+.col-2-of-4{
+    width: calc(2*((100% - 3*#{$grutter-horizontal}) / 4) + #{$grutter-horizontal};
+}
+}
+
