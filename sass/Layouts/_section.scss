@@ -1,0 +1,13 @@
+.section__about{
+    background-image:linear-gradient(
+     rgba($background-color-blue-light,0.4),
+     rgba($background-color-blue-dark,0.8));
+    top: 3rem;
+    &-mid{
+        text-align: center;
+        &_text{
+            text-transform: uppercase;
+            font-size: 2rem;
+        }
+    }
+}

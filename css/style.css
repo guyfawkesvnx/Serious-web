@@ -97,7 +97,7 @@ header {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  background-image: linear-gradient(rgba(240, 217, 126, 0.5), rgba(12, 66, 153, 0.5)); }
+  background-image: linear-gradient(rgba(220, 227, 228, 0.9), rgba(171, 245, 190, 0.5)); }
 
 .header__logo-box {
   float: left; }
@@ -165,11 +165,39 @@ header {
     clear: both; }
   .row:not(:last-child) {
     margin-bottom: 6rem; }
-  .row .col-1-of-2 {
-    width: calc((100% - 3.75rem) / 2); }
-  .row .col-1-of-3 {
-    width: calc((100% - 2*3.75rem) / 3); }
-  .row .col-1-of-4 {
-    width: calc((100% - 3*3.75rem) / 4); }
-  .row .col-2-of-4 {
-    width: calc(2*((100% - 3*3.75rem) / 4) + 3.75rem); }
+
+.col-1-of-2 {
+  width: calc((100% - 3.75rem) / 2); }
+
+.col-1-of-3 {
+  width: calc((100% - 2*3.75rem) / 3); }
+
+.col-1-of-4 {
+  width: calc((100% - 3*3.75rem) / 4); }
+
+.col-2-of-4 {
+  width: calc(2*((100% - 3*3.75rem) / 4) + 3.75rem); }
+
+.col-2-of-5 {
+  width: calc(2*((100% - 4*3.75rem) / 5) + 3.75rem); }
+
+.col-3-of-5 {
+  width: calc(3*((100% - 4*3.75rem) / 5) + 2 * 3.75rem); }
+
+.col-1-of-6 {
+  width: calc((100% - 5 * 3.75rem) / 6); }
+
+.col-2-of-6 {
+  width: calc(2 *((100% - 5 * 3.75rem) / 6) + 3.75rem); }
+
+.col-3-of-6 {
+  width: calc(3 *((100% - 5 * 3.75rem) / 6) + 2 * 3.75rem); }
+
+.section__about {
+  background-image: linear-gradient(rgba(108, 218, 255, 0.4), rgba(0, 45, 128, 0.8));
+  top: 3rem; }
+  .section__about-mid {
+    text-align: center; }
+    .section__about-mid_text {
+      text-transform: uppercase;
+      font-size: 2rem; }
